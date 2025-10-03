@@ -17,6 +17,15 @@ function App() {
       <View style={styles.header}>
         <Text style={styles.title}>Welcome to CPAN 213</Text>
         <Text style={styles.subtitle}>Cross-Platform Mobile Development</Text>
+
+      {/* Local Image */}
+        <Image
+          source={require('./assets/IMG_1655.jpg')}
+          style={styles.image}
+          resizeMode="contain"
+        />
+
+
       </View>
 
       <View style={styles.content}>
@@ -56,6 +65,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: 'white',
     fontStyle: 'italic',
+  },
+  image: {
+    width: 150,
+    height: 150,
+    marginTop: 10,
   },
   content: {
     flex: 1,
