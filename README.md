@@ -15,7 +15,7 @@ This is my first React Native application, created for the CPAN 213 course: Cros
 3. Run 'npx react-native run-android' or 'npx react-native run-ios'
 
 ## Features implemented
--Custom welcome screen
+- Custom welcome screen
 - Personal information displayy
 - Course goals section
 - Custom styling with StyleSheet
